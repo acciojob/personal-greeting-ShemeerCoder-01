@@ -7,7 +7,7 @@ function PersonalGreeting() {
   return (
     <div>
       <p>Enter your name:</p>
-      <input type="text" onChange={(e) => setName(e.target.value)}/>
+      <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
       {name ? <p>Hello {name}!</p> : null}
     </div>
   );

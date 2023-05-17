@@ -19,7 +19,7 @@
 // export default App
 
 import React from 'react'
-import PersonalGreeting from './PersonalGreeting';
+import PersonalGreeting from "./PersonalGreeting";
 
 function App() {
   return (
