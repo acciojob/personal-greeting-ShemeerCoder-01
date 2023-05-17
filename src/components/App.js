@@ -9,7 +9,7 @@ const App = () => {
   }
   return (
     <div>
-       <label>Enter your name:</label>
+       <p>Enter your name:</p>
        <input onChange={myFunc} type="text"/>
        {text?<p>Hello {text}!</p>:null}
     </div>
